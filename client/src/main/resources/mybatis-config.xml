@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<settings>
+		<setting name="mapUnderscoreToCamelCase" value="true"/>
+		<setting name="jdbcTypeForNull" value="NULL" />
+		<!-- 打印查询语句 STDOUT_LOGGING-->
+		<!--NO_LOGGING 不打印sql日志 STDOUT_LOGGING打印日志-->
+		<setting name="logImpl" value="STDOUT_LOGGING" />
+	</settings>
+	<!--<typeAliases>
+		<typeAlias alias="Integer" type="java.lang.Integer" />
+		<typeAlias alias="String" type="java.lang.String" />
+		<typeAlias alias="Long" type="java.lang.Long" />
+		<typeAlias alias="Double" type="java.lang.Double" />
+		<typeAlias alias="Float" type="java.lang.Float" />
+		<typeAlias alias="HashMap" type="jutilsutil.HashMap" />
+		<typeAlias alias="LinkedHashMap" type="jutilsutil.LinkedHashMap" />
+		<typeAlias alias="ArrayList" type="jutilsutil.ArrayList" />
+		<typeAlias alias="LinkedList" type="jutilsutil.LinkedList" />
+	</typeAliases>-->
+</configuration>

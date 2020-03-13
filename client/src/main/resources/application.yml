@@ -1,0 +1,23 @@
+# ·þÎñ¶Ë¿ÚºÅ
+server:
+  port: 9303
+spring:
+  application:
+    name: springcloud-eureka-client
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    password: wangjie2020
+    url: jdbc:mysql://106.12.201.165:3306/cloud?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&failOverReadOnly=false&useSSL=false
+    username: root
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+mybatis-plus:
+  configLocation: classpath:mybatis-config.xml
+  mapper-locations: classpath*:mapper/**/*.xml
+  typeAliasesPackage: com.iflytek.wj.entity
+
+
